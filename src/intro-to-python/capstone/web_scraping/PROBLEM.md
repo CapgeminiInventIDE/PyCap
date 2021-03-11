@@ -68,6 +68,8 @@ Since you are not using them for commercial purposes, you should be alright. How
 
 ## Optional Extras
 
+- Enhance the scrape functionality and add website url as in input so it can scrpae other websites as well
+- Modify the hardcoded html elements so that in can take in class tag as an argument foy dynamic scraping
 - Enhance the scraper further and save the information out into csv file
 - Analyse and utilise the data and create an application from it
 - Example for Advanced usage: Algorithm Trading on stock information or Resume Skill Matching for job posting
