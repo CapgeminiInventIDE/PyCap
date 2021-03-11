@@ -4,7 +4,7 @@ Capstone example of applying the learnings from PyCap intro to Python and create
 
 ## Problem
 
-Create a basic commandline application using Python 3.6+ that allows a user scrap an information from various website.
+Create a basic command line application using Python 3.6+ that allows a user to scrape information from various websites on the internet.
 In this exercise we will scrape job postings from indeed website.
 
 ### Starting point for Web Scraping
@@ -30,20 +30,15 @@ A list of operations that your app should support, as well as how we expect them
 
 | Operation                                            | Usage |
 |------------------------------------------------------|-------|
-| Start the scaping process (This should use cached files if they exist and store them if they dont already exist) | `python3 indeed.py scrape` |
-| Start the scaping process but ignore the cached data and force scrape from the indeed website | `python3 indeed.py scrape --no-cache`|
-| Extract all job postings based on the location Australia | `python3 indeed.py filter --location "Australia` |
-| Extract all job postings based on the company rating of 3 and above and location Australia | `python3 indeed.py filter --rating 3 --location "Australia"`|
-| Extract all job postings based on the salary range greater than $65000 and location Australia | `python3 indeed.py filter --salary 65000 --location "Australia"`|
-| Extract all job postings based on the job title "Consulting" and location Australia | `python3 indeed.py filter --job "Consulting" --location "Australia"`|
-| Save the jobs into json file called "jobs.json" | `python3 indeed.py filter --job "Consulting" --location "Australia" --save "jobs.json"` |
+| Start the scaping process based on the job title "Consulting" and location Australia (This should use cached files if they exist and store them if they dont already exist) | `python3 indeed.py scrape --job "Consulting" --location "Australia"` |
+| Start the scaping process but ignore the cached data and force scrape from the indeed website | `python3 indeed.py scrape --job "Consulting" --location "Australia" --no-cache`|
+| Extract all job postings based on the  job title "Consulting", rating of 3 or greater and location Australia | `python3 indeed.py filter --job "Consulting" --rating "3" --location "Australia"` |
+| Extract all job postings based on the salary of $70000 or greater  | `python3 indeed.py filter --salary "70000"`|
+| Save the jobs into json file called "jobs.json" | `python3 indeed.py filter --save "jobs.json"` |
 ## Suggested URLs for Webscraping
 
-- <https://www2.asx.com.au/markets/trade-our-cash-market/todays-announcements>
-- ASX URL of the companies you are interested in (Hint: you can store the companies in a list)
-- <https://au.indeed.com/jobs?q=data+scientist&l=Sydney+NSW>
-- Indeed URL with your job and city queried (Hint: you can store jobs in a list)
-
+- <https://au.indeed.com/jobs?q=data+scientist&l=Australia>
+- Indeed URL with your job and city queried
 ## Suggested Library
 
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
@@ -93,3 +88,8 @@ Hint: ASX is a dynamic website, it is highly recommend that you check out Seleni
 ![Example of stock page](images/stock_price.jpg)
 
 - We can then determine if there is any correlation between the announcement and the change in stock price for today
+
+#### Suggested Library for ASX activity
+
+- <https://www2.asx.com.au/markets/trade-our-cash-market/todays-announcements>
+- ASX URL of the companies you are interested in (Hint: you can store the companies in a list)
