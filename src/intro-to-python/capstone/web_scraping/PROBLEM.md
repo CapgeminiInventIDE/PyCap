@@ -35,10 +35,12 @@ A list of operations that your app should support, as well as how we expect them
 | Extract all job postings based on the  job title "Consulting", rating of 3 or greater and location Australia | `python3 indeed.py filter --job "Consulting" --rating "3" --location "Australia"` |
 | Extract all job postings based on the salary of $70000 or greater  | `python3 indeed.py filter --salary "70000"`|
 | Save the jobs into json file called "jobs.json" | `python3 indeed.py filter --save "jobs.json"` |
+
 ## Suggested URLs for Webscraping
 
 - <https://au.indeed.com/jobs?q=data+scientist&l=Australia>
 - Indeed URL with your job and city queried
+
 ## Suggested Library
 
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)

@@ -39,7 +39,6 @@ You should add a summary to your README that includes the next steps (dot points
 
 A list of operations that your app should support, as well as how we expect them to show up can be found in the table below.
 
-
 | Operation                                            | Usage |
 |------------------------------------------------------|-------|
 | Start the scaping process based on the job title "Consulting" and location Australia (This should use cached files if they exist and store them if they dont already exist) | `python3 indeed.py scrape --job "Consulting" --location "Australia"` |
