@@ -1,6 +1,21 @@
 certifications:
   Introduction to Python:
-    - name: Tim Sanderson
-      github: TimSando
-      capstone: https://github.com/TimSando/PyCap
-      badgr: https://au.badgr.com/public/assertions/t-b5wb3FRbORhunN2qhrcw
+    - name: Mahfuz Amin
+      github: mahfuzulamin
+      capstone: https://github.com/mahfuzulamin/encryption
+      badgr: https://au.badgr.com/public/assertions/NyZzU7LNSA-qcPxtaVE2jg
+    
+    - name: Nikky Gleeson
+      github: nikkygleeson
+      capstone: https://github.com/nikkygleeson/secrets
+      badgr: https://au.badgr.com/public/assertions/uHxsCat9T1GZDp0RxQ-51g
+    
+    - name: Alex Jenkins
+      github: alexljenkins
+      capstone: https://github.com/alexljenkins/PyCap
+      badgr: https://au.badgr.com/public/assertions/LXe-2VHBQdSN9j1LhJf0LA
+    
+    - name: Raymond Tran
+      github: raymond-tran-95
+      capstone: https://github.com/raymond-tran-95/Todo_List
+      badgr: https://au.badgr.com/public/assertions/ajWtZGcYTOO6zFgIxfObsA
